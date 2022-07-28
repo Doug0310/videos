@@ -1,0 +1,54 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image: url(https://images7.alphacoders.com/932/932701.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 55px;
+    color: rgb(247, 247, 247);
+    transition: all 300ms;
+}
+
+h1:hover {
+    transform: scale(1.15);
+}
+
+#juegos {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    width: 90%;
+    margin: 3%;
+    grid-gap: 30px;
+    
+}
+
+#juegos img {
+    width: 100%;
+    transition: all 300ms;
+    position: relative;
+    background-color: black;
+}
+
+#juegos img:hover {
+    transform: scale(1.15);
+}
+
+#logo {
+    width: 15%;
+}
+
+.estadios{ 
+background-color: rgb(210, 255, 9);
+text-align: center;
+font-weight: bold;
+
+}
